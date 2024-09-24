@@ -1,33 +1,3 @@
-Table of Content:
-Importing libraries
-reading data
-Defining Dataset Parameters
-Data Visualising
-Create Model
-Compile the Model
-Train the Model
-Visualizing training results
-    Findings
-Create the model
-Compile the model
-Visualizing the results
-    Findings
-        find distribution classes in the training dataset
-        find the class that has the least number of classes
-        find the classes that dominate the data in terms proportionate number of samples
-Rectify the class imbalance
-distribution of augmented data after adding new images to the original training data.
-    Train the model on the data created using Augmentor
-    create training dataset
-    create validation dataset
-    Create your model (make sure to include normalization)
-    Compile your model (Choose optimizer and loss function appropriately)
-    Train your model
-    Visualize the model results
-Analyze your results here. Did you get rid of underfitting/overfitting? Did class rebalance help?
-Test the model
-
-_____________________
 
 Data Summary:
 
@@ -46,15 +16,15 @@ Squamous cell carcinoma,
 Vascular lesion.
 
 Steps:
-Data Loading
-Baseline Model Building
-Training the Model and testing the model
-Building an augmented model
-Training the augmented model and testing the model
-Countering Class Imbalance with augmentor
-Building the final model
-Training the final model and testing the model
-Verifying the model
+1-Data Loading.
+2-Baseline Model Building
+3-Training the Model and testing the model
+4-Building an augmented model
+5-Training the augmented model and testing the model
+6-Countering Class Imbalance with augmentor
+7-Building the final model
+8-Training the final model and testing the model
+9-Verifying the model
 
 
 Conclusion:
@@ -62,11 +32,11 @@ The training accuracy and validation accuracy are nearly identical, indicating a
 However more epochs will surely increase accuracy more for above 90%
 
 Technologies Used:
-Python
-Tensorflow
-Keras
-Augmentor
-Matplotlib
+Python,
+Tensorflow,
+Keras,
+Augmentor,
+Matplotlib,
 NumPy
 
 Contact
