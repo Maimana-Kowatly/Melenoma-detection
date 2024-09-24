@@ -1,4 +1,4 @@
-Table of Content
+Table of Content:
 Importing libraries
 reading data
 Defining Dataset Parameters
@@ -26,8 +26,6 @@ distribution of augmented data after adding new images to the original training 
     Visualize the model results
 Analyze your results here. Did you get rid of underfitting/overfitting? Did class rebalance help?
 Test the model
-
-
 
 _____________________
 
@@ -59,7 +57,7 @@ Training the final model and testing the model
 Verifying the model
 
 
-Conclusion
+Conclusion:
 The training accuracy and validation accuracy are nearly identical, indicating a good fit for the model. Additionally, the training loss and validation loss are also close to each other, further confirming the model's good fit. With a validation accuracy of 0.83, the model successfully classifies images with 83% accuracy, which is a strong performance.
 However more epochs will surely increase accuracy more for above 90%
 
